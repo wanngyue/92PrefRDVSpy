@@ -26,8 +26,8 @@ def send_email():
 		server.starttls()
 		server.ehlo()
 		server.login(sender_email, password)
-		txt = "It seems that the online service of the fucking prefecture is available!"
-		msg = "Subject: {}\n\n{}".format('[AUTO] Prefecture', txt)
+		txt = "Hurry up! https://www.hauts-de-seine.gouv.fr/booking/create/14086/0"
+		msg = "Subject: {}\n\n{}".format('[AUTO] Hurry up, place available in the Prefecture', txt)
 		server.sendmail(sender_email, "xxx@gmail.com", msg)
 		server.quit()
 	except Exception as e:
