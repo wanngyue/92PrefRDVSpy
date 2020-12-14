@@ -1,6 +1,6 @@
 # 92PrefRDVSpy
 
-This is a python script monitoring prefecture92 (Hauts-De-Seine) titre-de-séjour booking page, by default, it checks if any place is availabe every 30s and send an e-mail.
+This is a python script monitoring Naterre sous-prefecture92 (Hauts-De-Seine) titre-de-séjour booking page, by default, it checks if any place is availabe every 30s and send an e-mail.
 
 User needs to configure themselves the followling fields in the script:
 
